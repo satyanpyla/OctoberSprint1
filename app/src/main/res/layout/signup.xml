@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/txt_email"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_email"
+        android:layout_below="@+id/txt_email"
+        android:background="@drawable/border"
+        android:hint="Enter Email"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/txt_name"
+        android:textSize="20dp"
+        android:layout_below="@+id/edt_email"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_name"
+        android:layout_below="@+id/txt_name"
+        android:background="@drawable/border"
+        android:hint="Enter Name"
+        android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:id="@+id/txt_phone"
+        android:textSize="20dp"
+        android:layout_below="@+id/edt_name"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_phone"
+        android:layout_below="@+id/txt_phone"
+        android:background="@drawable/border"
+        android:hint="Enter Phone No"
+        android:textColor="#000"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/txt_password"
+        android:textSize="20dp"
+        android:layout_below="@+id/edt_phone"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_password"
+        android:layout_below="@+id/txt_password"
+        android:background="@drawable/border"
+        android:hint="Enter Password"
+        android:textColor="#000"
+        android:inputType="textWebPassword"/>
+
+ <!--   <CheckBox
+        android:id="@+id/confirmCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="I have read and agree to the Privacy Policy."
+        android:layout_below="@+id/edt_password"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/layout_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        >
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+
+            android:hint="hint_password"
+            android:inputType="textPassword"
+            android:textColor="@color/colorPrimary" />
+    </android.support.design.widget.TextInputLayout>
+-->
+    <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="SIGNUP WITH EMAIL"
+         android:layout_below="@+id/edt_password"
+         android:layout_centerHorizontal="true"
+         android:textColor="@color/white"
+         android:textSize="20dp"
+         android:background="@drawable/border_signup"
+         android:paddingRight="10dp"
+         android:paddingLeft="10dp"
+         android:layout_marginTop="10dp"/>
+</RelativeLayout>
+
+</RelativeLayout>
